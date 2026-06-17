@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#FAFAF8"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#EEECE8" stroke-width="14"/>
+  <path d="M256 150c0 70-44 96-44 150a44 44 0 0 0 88 0c0-54-44-80-44-150z" fill="#65A30D"/>
+  <path d="M300 138c34 6 58 30 58 30s-30 12-58 6c-1-14 0-26 0-36z" fill="#D97706"/>
+  <text x="256" y="430" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="72" font-weight="600" fill="#1C1917">F</text>
+</svg>

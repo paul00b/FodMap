@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Playfair Display', ui-serif, Georgia, serif;
+
+  /* Warm palette */
+  --color-bg: #fafaf8;
+  --color-surface: #ffffff;
+  --color-border: #eece8;
+  --color-border-soft: #eece8;
+  --color-ink: #1c1917;
+  --color-muted: #a8a29e;
+  --color-amber: #d97706;
+  --color-amber-soft: #fdf3e7;
+  --color-green: #65a30d;
+  --color-green-soft: #f1f7e6;
+  --color-red: #dc2626;
+  --color-red-soft: #fceeee;
+  --color-watermark: #f0ede8;
+
+  --radius-card: 20px;
+  --radius-btn: 14px;
+
+  --shadow-card: 0 2px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* fix border color token (hex) */
+@theme {
+  --color-border: #eeece8;
+  --color-border-soft: #f2f0ec;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hide scrollbars on horizontal scroll strips while keeping scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
