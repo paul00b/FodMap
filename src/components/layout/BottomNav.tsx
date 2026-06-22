@@ -1,10 +1,11 @@
-import { LeafIcon, CalendarIcon, CartIcon } from '../ui/Icons';
+import { LeafIcon, CalendarIcon, CartIcon, NotebookIcon } from '../ui/Icons';
 
-export type Tab = 'search' | 'planner' | 'shopping';
+export type Tab = 'search' | 'planner' | 'journal' | 'shopping';
 
 const TABS: { id: Tab; label: string; Icon: typeof LeafIcon }[] = [
   { id: 'search', label: 'Aliments', Icon: LeafIcon },
   { id: 'planner', label: 'Planificateur', Icon: CalendarIcon },
+  { id: 'journal', label: 'Journal', Icon: NotebookIcon },
   { id: 'shopping', label: 'Courses', Icon: CartIcon },
 ];
 
